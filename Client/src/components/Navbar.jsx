@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import CartModel from '../pages/shop/CartModel'
 import { logout } from '../redux/features/auth/authSlice'
 import avatarImage from '../assets/avatar.png'
-import { useLogoutUserMutation } from '../redux/features/auth/authApi'; 
+import { useLogoutUserMutation } from '../../src/redux/features/auth/authapi'; 
 
 const Navbar = () => {
     const products = useSelector((state) => state.cart.products)

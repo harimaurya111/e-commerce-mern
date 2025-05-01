@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
-import { useRegisterUserMutation } from '../redux/features/auth/authapi';
+import { useRegisterUserMutation } from '../../src/redux/features/auth/authapi'; 
 
 
 const Register = () => {
